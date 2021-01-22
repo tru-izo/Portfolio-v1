@@ -1,0 +1,13 @@
+$color-1: #e7b790;
+$color-2: #fff;
+$color-3: #3697e6;
+
+.bg-gradient {
+  background-image: linear-gradient(to left, $color-1, $color-2);
+}
+
+.brand-color {
+  color: $color-3;
+}
+
+
