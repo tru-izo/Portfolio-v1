@@ -13,6 +13,15 @@ $color-4: #000;
 .brand-color2 {
   color: $color-3;
 }
+.name-span {
+  color: $color-3;
+  padding-left: 6px;
+}
+
+.profile-pic img {
+  border-radius: 50%;
+  width: 400px;
+}
 
 footer {
   a {
@@ -22,12 +31,7 @@ footer {
   a:nth-last-child(1) {
     color: $color-3;
   }
-  .icons{
+  .icons {
     width: 208px;
   }
-}
-
-
-.name-span{
-  color: $color-3;
 }
