@@ -7,10 +7,10 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css"/>
     <title>TRUIZO | Portfolio</title>
   </head>
-  <body>
+  <body class="has-navbar-fixed-top">
 
     <!-- navbar start -->
-    <nav class="navbar bg-gradient is-fixed" role="navigation" aria-label="main navigation">
+    <nav class="navbar bg-gradient is-fixed-top" role="navigation" aria-label="main navigation">
       <div class="container">
         <div class="navbar-brand">
           <a class="navbar-item is-size-3 brand" href="#">
@@ -28,9 +28,9 @@
 
         <div id="navbarBasicExample" class="navbar-menu">
           <div class="navbar-start">
-            <a class="navbar-item is-size-5"> About </a>
-            <a class="navbar-item is-size-5"> Projects </a>
-            <a class="navbar-item is-size-5"> Contact </a>
+            <a class="navbar-item is-size-5" href="#about"> About </a>
+            <a class="navbar-item is-size-5" href="#projects"> Projects </a>
+            <a class="navbar-item is-size-5" href="#contact"> Contact </a>
           </div>
 
           <div class="navbar-end">
@@ -52,21 +52,21 @@
     <!-- navbar end -->
 
     <!--Hero start-->
-    <section class="hero is-medium is-dark is-bold">
+    <section id ="hero-s"class="hero is-medium is-dark is-bold">
   <div class="hero-body">
     <div class="container is-widescreen">
       <div class="columns is-vcentered">
-        <div class="column is-half">
+        <div class="column is-half ">
            <h1 class="title is-flex is-justify-content-center">
-            Hello, Im <span class="name-span ">Tony Ruiz Ormeno</span>
+            Hello, I am <span class="name-span"> Tony Ruiz Ormeno</>
             </h1>
             <h2 class="subtitle is-flex is-justify-content-center">
              A Front End Web Developer
             </h2>
         </div>
-        <div class="column">
-          <div class="profile-pic">
-            <img src="img/profile1.jpg" alt="Profile picture">
+        <div class="column is-half is-flex is-justify-content-center">
+          <div class="profile-pic is-flex is-justify-content-center">
+            <img src="img/me-cut.png" alt="Profile picture">
           </div>
         </div>
       </div>
@@ -77,6 +77,7 @@
     <!--Hero end-->
 
     <!-- Contact Form Start -->
+   <section id="contact">
     <div class="field is-horizontal">
   <div class="field-label is-normal">
     <label class="label">From</label>
@@ -167,6 +168,7 @@
     </div>
   </div>
 </div>
+</section> 
     <!-- Contact Form End -->
 
     <!-- footer Start -->
