@@ -27,6 +27,32 @@ $color-4: #000;
   width: 400px;
 }
 
+.card {
+  width: 300px;
+  margin: 40px;
+}
+
+#about {
+  height: 100vh;
+}
+
+#projects {
+  height: 100vh;
+  h3 {
+    margin-top: 45px;
+  }
+  img {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+#contact {
+  height: 100vh;
+  h3 {
+    margin-top: 45px;
+  }
+}
 footer {
   a {
     color: inherit;
@@ -34,9 +60,6 @@ footer {
   }
   a:nth-last-child(1) {
     color: $color-3;
-  }
-  .icons {
-    width: 208px;
   }
 }
 
